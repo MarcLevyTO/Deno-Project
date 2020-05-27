@@ -1,0 +1,11 @@
+{
+  "env": {
+    "TOKEN": "SECRET TOKEN GOES HERE"
+  },
+
+  "$schema": "https://deno.land/x/denon/schema.json",
+  "allow": ["net", "env"],
+  "scripts": {
+    "start": "server.ts"
+  }
+}
